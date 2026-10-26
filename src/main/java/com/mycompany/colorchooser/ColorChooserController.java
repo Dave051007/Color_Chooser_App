@@ -39,6 +39,7 @@ public class ColorChooserController {
     
     @FXML
     public void initialize() {
-        
+        redTextField.textProperty().bind(
+                redSlider.valueProperty().asString("%.0f"));
     }    
 }
