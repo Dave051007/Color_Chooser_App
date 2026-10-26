@@ -41,5 +41,8 @@ public class ColorChooserController {
     public void initialize() {
         redTextField.textProperty().bind(
                 redSlider.valueProperty().asString("%.0f"));
+        
+        greenTextField.textProperty().bind(
+                greenSlider.valueProperty().asString("%.0f"));
     }    
 }
