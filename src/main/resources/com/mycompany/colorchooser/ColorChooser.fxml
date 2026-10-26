@@ -43,7 +43,7 @@
       <TextField GridPane.columnIndex="2" GridPane.rowIndex="2" />
       <TextField fx:id="blueTextField" text="0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
       <TextField fx:id="alphaTextField" text="1.00" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-      <Circle fill="DODGERBLUE" radius="40.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowSpan="2147483647" GridPane.valignment="CENTER" />
+      <Circle fill="#0a0a0a" radius="40.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowSpan="2147483647" GridPane.valignment="CENTER" />
       <Rectangle fx:id="colorRectangle" arcHeight="5.0" arcWidth="5.0" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowSpan="2147483647" GridPane.valignment="CENTER" />
    </children>
 </GridPane>
