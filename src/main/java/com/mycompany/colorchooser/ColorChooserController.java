@@ -32,4 +32,8 @@ public class ColorChooserController {
     @FXML
     private TextField redTextField;
 
+    private int red = 0;
+    private int green = 0;
+    private int blue = 0;
+    private double alpha = 1.0;
 }
