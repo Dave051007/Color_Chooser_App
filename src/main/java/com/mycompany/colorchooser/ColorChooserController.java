@@ -36,4 +36,9 @@ public class ColorChooserController {
     private int green = 0;
     private int blue = 0;
     private double alpha = 1.0;
+    
+    @FXML
+    public void initialize() {
+        
+    }    
 }
