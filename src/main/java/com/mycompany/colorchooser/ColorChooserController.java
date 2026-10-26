@@ -1,6 +1,9 @@
+package com.mycompany.colorchooser;
+
 import javafx.fxml.FXML;
 import javafx.scene.control.Slider;
 import javafx.scene.control.TextField;
+import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 
 public class ColorChooserController {
@@ -39,6 +42,11 @@ public class ColorChooserController {
     
     @FXML
     public void initialize() {
+        redSlider.valueProperty().addListener((obs, oldValue, newValue) -> {
+            red = newValue.intValue();
+            colorRectangle.setFill(Color.rgb(red, green, blue, alpha));
+        });
+        
         redTextField.textProperty().bind(
                 redSlider.valueProperty().asString("%.0f"));
         
