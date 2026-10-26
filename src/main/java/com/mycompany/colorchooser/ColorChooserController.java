@@ -50,6 +50,11 @@ public class ColorChooserController {
         redTextField.textProperty().bind(
                 redSlider.valueProperty().asString("%.0f"));
         
+        greenSlider.valueProperty().addListener((obs, oldValue, newValue) -> {
+            green = newValue.intValue();
+            colorRectangle.setFill(Color.rgb(red, green, blue, alpha));
+        });
+        
         greenTextField.textProperty().bind(
                 greenSlider.valueProperty().asString("%.0f"));
         
