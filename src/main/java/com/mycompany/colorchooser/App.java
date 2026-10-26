@@ -10,6 +10,7 @@ import java.io.IOException;
 
 /**
  * JavaFX App
+ * Git: https://github.com/Dave051007/Color_Chooser_App.git
  */
 public class App extends Application {
 
